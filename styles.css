@@ -3419,33 +3419,36 @@ main > section.hero:first-of-type .hero-copy::after {
 
 .footer {
   background: #e8eee9;
-  color: var(--sage-dark);
+  color: #263f35;
   padding: 70px 0 25px;
   border-top: 1px solid rgba(42, 79, 68, .12);
 }
 
 .footer-grid {
   display: grid;
-  grid-template-columns: 1.25fr 1fr 1fr 1fr;
-  gap: 45px;
+  grid-template-columns: 1.45fr 1fr 1fr 1.1fr;
+  gap: 40px;
+  align-items: start;
 }
 
 .footer-brand {
-  display: inline-flex;
+  display: flex;
   align-items: center;
-  width: fit-content;
-  padding: 9px 12px;
-  border: 1px solid rgba(42, 79, 68, .10);
-  border-radius: 8px;
-  background: #fffdf8;
+  width: 100%;
+  max-width: 320px;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
   text-decoration: none;
 }
 
 .footer-brand img {
   display: block;
-  width: 178px;
+  width: 100%;
+  max-width: 310px;
   height: auto;
-  max-height: 92px;
+  max-height: none;
   object-fit: contain;
   object-position: left center;
   background: transparent;
@@ -3453,20 +3456,14 @@ main > section.hero:first-of-type .hero-copy::after {
   border-radius: 0;
 }
 
-.footer-description {
-  margin: 18px 0 0;
-  max-width: 310px;
-  font-size: 14px;
-  line-height: 1.75;
-  color: #4e6258;
-}
-
 .footer-tagline {
-  margin: 16px 0 0;
+  margin: 11px 0 0;
   color: #713047;
-  font-size: 12px;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1.6;
   text-transform: uppercase;
-  letter-spacing: .18em;
+  letter-spacing: .12em;
 }
 
 .footer-title {
@@ -3499,13 +3496,6 @@ main > section.hero:first-of-type .hero-copy::after {
   gap: 10px !important;
 }
 
-.footer-service-note {
-  margin-top: 20px;
-  font-size: 13px;
-  line-height: 1.6;
-  color: #4e6258;
-}
-
 .copyright {
   border-top: 1px solid rgba(42, 79, 68, .18);
   margin-top: 45px;
@@ -3514,7 +3504,7 @@ main > section.hero:first-of-type .hero-copy::after {
   justify-content: space-between;
   gap: 20px;
   font-size: 12px;
-  color: #4e6258;
+  color: #2f463b;
 }
 
 .footer-social {
@@ -3565,8 +3555,13 @@ main > section.hero:first-of-type .hero-copy::after {
     gap: 34px;
   }
 
+  .footer-brand {
+    max-width: 100%;
+  }
+
   .footer-brand img {
-    width: 165px;
+    width: 100%;
+    max-width: 260px;
   }
 
   .copyright {
