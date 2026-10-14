@@ -22,15 +22,15 @@
           <p class="footer-tagline">Crowning your golden years</p>
 
           <nav class="footer-social" aria-label="Social media">
-            <a href="https://www.linkedin.com/search/results/companies/?keywords=Divine%20Moonlight%20Home%20Service%20LLC" target="_blank" rel="noopener noreferrer" aria-label="Search LinkedIn for Divine Moonlight Home Service LLC">
+            <span class="footer-social-item" role="img" aria-label="LinkedIn profile coming soon">
               <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.13 1.44-2.13 2.94v5.67H9.37V9h3.41v1.56h.05c.47-.89 1.63-1.83 3.36-1.83 3.59 0 4.26 2.36 4.26 5.43v6.29ZM5.36 7.43a2.06 2.06 0 1 1 .02-4.12 2.06 2.06 0 0 1-.02 4.12ZM7.14 20.45H3.58V9h3.56v11.45ZM22.22 0H1.77C.79 0 0 .77 0 1.72v20.56C0 23.23.79 24 1.77 24h20.44c.98 0 1.79-.77 1.79-1.72V1.72C24 .77 23.2 0 22.22 0Z"/></svg>
-            </a>
-            <a href="https://www.facebook.com/search/pages/?q=Divine%20Moonlight%20Home%20Service%20LLC" target="_blank" rel="noopener noreferrer" aria-label="Search Facebook for Divine Moonlight Home Service LLC">
+            </span>
+            <span class="footer-social-item" role="img" aria-label="Facebook profile coming soon">
               <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M13.4 21v-8.2h2.8l.42-3.2H13.4V7.55c0-.92.26-1.55 1.6-1.55h1.71V3.13c-.3-.04-1.35-.13-2.57-.13-2.54 0-4.28 1.55-4.28 4.4V9.6H7v3.2h2.86V21h3.54Z"/></svg>
-            </a>
-            <a href="https://www.instagram.com/explore/search/keyword/?q=Divine%20Moonlight%20Home%20Service%20LLC" target="_blank" rel="noopener noreferrer" aria-label="Search Instagram for Divine Moonlight Home Service LLC">
+            </span>
+            <span class="footer-social-item" role="img" aria-label="Instagram profile coming soon">
               <svg viewBox="0 0 24 24" aria-hidden="true"><rect class="social-outline" x="3" y="3" width="18" height="18" rx="5"/><circle class="social-outline" cx="12" cy="12" r="4"/><circle cx="17.7" cy="6.4" r="1.2"/></svg>
-            </a>
+            </span>
           </nav>
         </div>
 
