@@ -3456,16 +3456,6 @@ main > section.hero:first-of-type .hero-copy::after {
   border-radius: 0;
 }
 
-.footer-tagline {
-  margin: 11px 0 0;
-  color: #713047;
-  font-size: 13px;
-  font-weight: 600;
-  line-height: 1.6;
-  text-transform: uppercase;
-  letter-spacing: .12em;
-}
-
 .footer-title {
   font-size: 12px;
   font-weight: 600;
