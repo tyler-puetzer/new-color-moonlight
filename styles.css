@@ -3420,7 +3420,7 @@ main > section.hero:first-of-type .hero-copy::after {
 .footer {
   background: #e8eee9;
   color: #263f35;
-  padding: 70px 0 25px;
+  padding: 26px 0 25px;
   border-top: 1px solid rgba(42, 79, 68, .12);
 }
 
@@ -3497,16 +3497,22 @@ main > section.hero:first-of-type .hero-copy::after {
   color: #2f463b;
 }
 
+.footer-social-row {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 0 auto 22px;
+}
+
 .footer-social {
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  align-self: flex-end;
   flex-wrap: wrap;
   gap: 10px;
   width: fit-content;
   max-width: calc(100vw - 112px);
-  margin: 18px 0 0 auto;
+  margin: 0 90px 0 auto;
   padding: 0;
   text-align: right;
 }
@@ -3544,7 +3550,16 @@ main > section.hero:first-of-type .hero-copy::after {
 
 @media (max-width: 700px) {
   .footer {
-    padding: 55px 0 22px;
+    padding: 24px 0 22px;
+  }
+
+  .footer-social-row {
+    margin-bottom: 20px;
+  }
+
+  .footer-social {
+    margin-right: 80px;
+    max-width: calc(100vw - 112px);
   }
 
   .footer-grid {
