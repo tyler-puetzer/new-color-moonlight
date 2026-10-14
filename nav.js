@@ -49,6 +49,9 @@
       ".service-area-layout",
       ".service-area-intro",
       ".service-area-info",
+      ".mission-section-heading",
+      ".mission-copy > *",
+      ".mission-final",
       ".founders-intro",
       ".founders-feature",
       ".founders-josephine",
@@ -63,6 +66,7 @@
       ".application-note",
       ".apply-step",
       ".final-apply",
+      ".career-card",
       ".footer-grid > div"
     ];
 
@@ -103,7 +107,7 @@
   }
 
   function injectNavigation() {
-    if (document.getElementById("shared-site-navigation")) return;
+    document.querySelectorAll(".header").forEach(header => header.remove());
 
     const wrapper = document.createElement("div");
     wrapper.id = "shared-site-navigation";
@@ -122,6 +126,7 @@
       "": "home",
       "services.html": "services",
       "mission.html": "about",
+      "team.html": "team",
       "service-areas.html": "service-areas",
       "careers.html": "careers",
       "contact.html": "contact"

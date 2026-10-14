@@ -31,6 +31,7 @@
   --lift: 0 18px 40px -18px rgba(42, 79, 68, 0.28);
 }
 
+
 /* =========================
    GLOBAL STYLES
    ========================= */
@@ -79,6 +80,7 @@ p {
   margin: auto;
 }
 
+
 /* =========================
    SKIP LINK
    ========================= */
@@ -96,6 +98,7 @@ p {
 .skip:focus {
   top: 16px;
 }
+
 
 /* =========================
    HEADER & NAVIGATION
@@ -170,6 +173,7 @@ p {
   color: var(--burgundy);
 }
 
+
 /* =========================
    BUTTONS
    ========================= */
@@ -224,6 +228,7 @@ p {
   background: transparent;
 }
 
+
 /* =========================
    MOBILE NAVIGATION
    ========================= */
@@ -260,6 +265,7 @@ p {
   margin-top: 12px;
   width: 100%;
 }
+
 
 /* =========================
    HERO
@@ -325,6 +331,7 @@ p {
   object-position: 50% 20%;
 }
 
+
 /* =========================
    TRUST SECTION
    ========================= */
@@ -352,6 +359,7 @@ p {
   margin: 10px auto 0;
   color: var(--sage-soft);
 }
+
 
 /* =========================
    GENERAL SECTIONS
@@ -387,6 +395,7 @@ section.block {
   text-align: center;
 }
 
+
 /* =========================
    SECTION HEADINGS
    ========================= */
@@ -408,6 +417,7 @@ section.block {
   color: var(--muted);
   margin-top: 15px;
 }
+
 
 /* =========================
    SERVICE CARDS
@@ -459,6 +469,7 @@ section.block {
   margin-top: 14px;
 }
 
+
 /* =========================
    TWO COLUMN SECTIONS
    ========================= */
@@ -480,6 +491,7 @@ section.block {
 .why-img {
   aspect-ratio: 4 / 5;
 }
+
 
 /* =========================
    POINTS / CHECKLIST
@@ -520,6 +532,7 @@ section.block {
   color: var(--muted);
 }
 
+
 /* =========================
    SPECIAL IMAGES
    ========================= */
@@ -541,6 +554,7 @@ section.block {
   object-fit: cover;
   border-radius: 16px;
 }
+
 
 /* =========================
    SMALL CARDS
@@ -565,6 +579,7 @@ section.block {
   color: var(--muted);
   margin-top: 5px;
 }
+
 
 /* =========================
    HOW IT WORKS / STEPS
@@ -606,6 +621,7 @@ section.block {
   color: var(--muted);
   margin-top: 7px;
 }
+
 
 /* =========================
    TEAM
@@ -671,6 +687,7 @@ section.block {
   background: #fff;
 }
 
+
 /* =========================
    QUOTE SECTION
    ========================= */
@@ -689,6 +706,7 @@ section.block {
   line-height: 0.5;
   color: rgba(168, 200, 189, 0.8);
 }
+
 
 /* =========================
    DARK SPLIT SECTION
@@ -721,6 +739,7 @@ section.block {
   color: var(--sage-soft);
 }
 
+
 /* =========================
    ROLES
    ========================= */
@@ -739,6 +758,7 @@ section.block {
   padding: 6px 12px;
   font-size: 14px;
 }
+
 
 /* =========================
    SERVICE AREAS
@@ -765,6 +785,7 @@ section.block {
   color: var(--burgundy);
   font-weight: 700;
 }
+
 
 /* =========================
    FINAL CTA
@@ -808,6 +829,7 @@ section.block {
   max-width: 650px;
   margin: 15px auto 0;
 }
+
 
 /* =========================
    FOOTER
@@ -871,6 +893,7 @@ section.block {
   color: var(--sage-soft);
 }
 
+
 /* =========================
    COMING SOON / PAGE MAIN
    ========================= */
@@ -909,6 +932,7 @@ section.block {
   justify-content: center;
 }
 
+
 /* =========================
    TABLET
    ========================= */
@@ -943,6 +967,7 @@ section.block {
     grid-template-columns: 1fr 1fr;
   }
 }
+
 
 /* =========================
    MOBILE
@@ -1030,7 +1055,16 @@ section.block {
 /* =========================
    TEAM
    ========================= */
-
+.team-wrap {
+  position: relative;
+}
+.team-track {
+  display: flex;
+  gap: 16px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  padding: 0 0 10px;
+}
 .team-card {
   min-width: 280px;
   padding: 18px 18px 16px;
@@ -1088,10 +1122,64 @@ section.block {
   min-height: 42px;
   padding: 0 16px;
 }
+.tag {
+  display: inline-block;
+  border-radius: 99px;
+  background: var(--paper);
+  padding: 5px 10px;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--burgundy);
+}
+.team-controls {
+  display: flex;
+  gap: 8px;
+}
+.circle {
+  width: 44px;
+  height: 44px;
+  border: 1px solid var(--line);
+  border-radius: 50%;
+  background: #fff;
+}
 
-/* Shared reset and refined layout rules follow; design tokens are defined above. */
+
+/* Testing Testing HERO DEMO EDIT LATER */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Outfit:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --sage: #a8c8bd;
+  --sage-deep: #3e6b5c;
+  --sage-dark: #2a4f44;
+  --sage-soft: #d7e6df;
+  --sage-mist: #eaf3ef;
+
+  --burgundy: #741f3d;
+  --burgundy-deep: #5a1830;
+
+  --gold: #b8954a;
+  --gold-soft: #d4bc7e;
+
+  --cream: #f7f3ec;
+  --paper: #fbf9f5;
+  --ink: #2c2a28;
+  --muted: #5e5a54;
+  --line: #ddd6cb;
+}
 
 /* RESET */
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
 
 body {
   margin: 0;
