@@ -16,9 +16,6 @@
           <a class="footer-brand" href="index.html" aria-label="Divine Moonlight home">
             <img src="${logoPath}" alt="Divine Moonlight">
           </a>
-          <p class="footer-description">
-            Divine Moonlight Home Service LLC provides personalized home services and senior support for families across Wake, Durham, and Orange Counties, North Carolina.
-          </p>
           <p class="footer-tagline">Crowning your golden years</p>
 
           <nav class="footer-social" aria-label="Social media">
@@ -63,7 +60,6 @@
             <li><a href="mailto:divine.moonlight.hc@gmail.com">divine.moonlight.hc@gmail.com</a></li>
             <li>Raleigh, NC</li>
           </ul>
-          <p class="footer-service-note">Serving Wake, Durham, and Orange Counties.</p>
         </div>
       </div>
 
