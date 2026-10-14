@@ -452,71 +452,6 @@
 
 /* ---------- photo feature ---------- */
 
-.careers-feature {
-  position: relative;
-  min-height: 590px;
-  display: flex;
-  align-items: center;
-  overflow: hidden;
-  isolation: isolate;
-}
-
-.careers-feature-image,
-.careers-feature-overlay {
-  position: absolute;
-  inset: 0;
-}
-
-.careers-feature-image {
-  z-index: -2;
-  background:
-    url("https://images.unsplash.com/photo-1581579438747-1dc8d17bbce4?auto=format&fit=crop&w=2200&q=85")
-    center / cover no-repeat;
-}
-
-.careers-feature-overlay {
-  z-index: -1;
-  background:
-    linear-gradient(90deg,
-      rgba(30,55,47,.96) 0%,
-      rgba(30,55,47,.84) 43%,
-      rgba(30,55,47,.34) 72%,
-      rgba(30,55,47,.08) 100%);
-}
-
-.careers-feature-content {
-  padding: 105px 0;
-}
-
-.careers-feature .eyebrow {
-  color: #d8b982;
-}
-
-.careers-feature h2 {
-  max-width: 680px;
-  margin: 13px 0 23px;
-  color: #fffdf8;
-  font-family: var(--display, "Cormorant Garamond", serif);
-  font-size: clamp(52px, 5.8vw, 78px);
-  font-weight: 500;
-  line-height: .9;
-  letter-spacing: -.035em;
-}
-
-.careers-feature h2 em {
-  color: #e6dbc7;
-  font-weight: 400;
-}
-
-.careers-feature-content > p {
-  max-width: 560px;
-  margin: 0 0 29px;
-  color: rgba(255,253,248,.87);
-  font-family: var(--sans, "Outfit", sans-serif);
-  font-size: 15px;
-  line-height: 1.8;
-}
-
 /* ---------- apply section ---------- */
 
 .how-to-apply {
@@ -719,26 +654,6 @@
     width: 100%;
   }
 
-  .careers-feature {
-    min-height: 570px;
-  }
-
-  .careers-feature-overlay {
-    background:
-      linear-gradient(180deg,
-        rgba(30,55,47,.26) 0%,
-        rgba(30,55,47,.74) 50%,
-        rgba(30,55,47,.97) 100%);
-  }
-
-  .careers-feature-content {
-    padding: 90px 0;
-  }
-
-  .careers-feature h2 {
-    font-size: 50px;
-  }
-
   .final-apply {
     padding: 30px;
   }
@@ -751,7 +666,6 @@
     width: 100%;
   }
 }
-
 
 /* ---------- softer editorial finish ---------- */
 
@@ -843,14 +757,6 @@
   border: 0;
   border-top: 1px solid var(--careers-line);
   border-bottom: 1px solid var(--careers-line);
-}
-
-.careers-page .careers-feature {
-  min-height: 540px;
-}
-
-.careers-page .careers-feature h2 {
-  max-width: 620px;
 }
 
 .careers-page .final-apply {

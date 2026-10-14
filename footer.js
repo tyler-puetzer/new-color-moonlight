@@ -62,11 +62,6 @@
   `;
 
   function injectFooter() {
-    const existingFooters = document.querySelectorAll(".footer");
-    existingFooters.forEach(footer => footer.remove());
-
-    // Reuse the page's existing mount point. This avoids duplicate IDs
-    // and keeps the footer exactly where the page expects it.
     let mount = document.getElementById("shared-site-footer");
     if (!mount) {
       mount = document.createElement("div");
@@ -74,6 +69,8 @@
       document.body.appendChild(mount);
     }
 
+    // Reuse an existing injected footer instead of overwriting page content.
+    if (mount.querySelector(".footer")) return;
     mount.innerHTML = footerMarkup;
   }
 
