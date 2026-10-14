@@ -3486,6 +3486,14 @@ main > section.hero:first-of-type .hero-copy::after {
   gap: 10px !important;
 }
 
+.footer-contact li,
+.footer-contact li a {
+  font-family: var(--sans);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
 .copyright {
   border-top: 1px solid rgba(42, 79, 68, .18);
   margin-top: 45px;
