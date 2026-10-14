@@ -3500,8 +3500,15 @@ main > section.hero:first-of-type .hero-copy::after {
 .footer-social {
   display: flex;
   align-items: center;
+  justify-content: flex-start;
+  align-self: flex-start;
+  flex-wrap: wrap;
   gap: 10px;
-  margin-top: 21px;
+  width: fit-content;
+  max-width: calc(100vw - 112px);
+  margin: 18px 0 0;
+  padding: 0;
+  text-align: left;
 }
 
 .footer .footer-social-item {
