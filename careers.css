@@ -110,10 +110,10 @@
   z-index: -1;
   background:
     linear-gradient(90deg,
-      rgba(30, 55, 47, .97) 0%,
-      rgba(30, 55, 47, .92) 36%,
-      rgba(30, 55, 47, .68) 58%,
-      rgba(30, 55, 47, .16) 100%);
+      rgba(41, 63, 80, .97) 0%,
+      rgba(41, 63, 80, .92) 36%,
+      rgba(41, 63, 80, .68) 58%,
+      rgba(41, 63, 80, .16) 100%);
 }
 
 .careers-hero-content {
@@ -478,10 +478,10 @@
   z-index: -1;
   background:
     linear-gradient(90deg,
-      rgba(30,55,47,.96) 0%,
-      rgba(30,55,47,.84) 43%,
-      rgba(30,55,47,.34) 72%,
-      rgba(30,55,47,.08) 100%);
+      rgba(41,63,80,.96) 0%,
+      rgba(41,63,80,.84) 43%,
+      rgba(41,63,80,.34) 72%,
+      rgba(41,63,80,.08) 100%);
 }
 
 .careers-feature-content {
@@ -585,9 +585,9 @@
   .careers-hero-overlay {
     background:
       linear-gradient(180deg,
-        rgba(30,55,47,.22) 0%,
-        rgba(30,55,47,.72) 50%,
-        rgba(30,55,47,.96) 100%);
+        rgba(41,63,80,.22) 0%,
+        rgba(41,63,80,.72) 50%,
+        rgba(41,63,80,.96) 100%);
   }
 
   .careers-intro-grid {
@@ -726,9 +726,9 @@
   .careers-feature-overlay {
     background:
       linear-gradient(180deg,
-        rgba(30,55,47,.26) 0%,
-        rgba(30,55,47,.74) 50%,
-        rgba(30,55,47,.97) 100%);
+        rgba(41,63,80,.26) 0%,
+        rgba(41,63,80,.74) 50%,
+        rgba(41,63,80,.97) 100%);
   }
 
   .careers-feature-content {
