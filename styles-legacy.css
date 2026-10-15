@@ -6,37 +6,37 @@
 
 :root {
   /* Updated Divine Moonlight palette: blue, magenta, warm cream, and sage */
-  --brand-blue: #308DBF;
-  --brand-blue-deep: #2340BA;
-  --brand-magenta: #C22767;
-  --brand-magenta-deep: #981D50;
-  --brand-cream: #F9ECE5;
-  --brand-sage: #C5DBCA;
-  --focus-ring: #2340BA;
-  --sage: #C5DBCA;
-  --sage-deep: #308DBF;
-  --sage-dark: #2340BA;
-  --sage-soft: #E4EEE6;
-  --sage-mist: #F0F5F1;
+  --brand-blue: #4F8CA7;
+  --brand-blue-deep: #294B78;
+  --brand-magenta: #A33F69;
+  --brand-magenta-deep: #78304D;
+  --brand-cream: #F6EEE7;
+  --brand-sage: #D8E5DB;
+  --focus-ring: #294B78;
+  --sage: #D8E5DB;
+  --sage-deep: #4F8CA7;
+  --sage-dark: #294B78;
+  --sage-soft: #EAF0EB;
+  --sage-mist: #F1F5F1;
 
-  --burgundy: #C22767;
-  --burgundy-deep: #981D50;
+  --burgundy: #A33F69;
+  --burgundy-deep: #78304D;
 
-  --gold: #308DBF;
-  --gold-soft: #78B6D5;
+  --gold: #A77C4E;
+  --gold-soft: #D4B98F;
 
-  --cream: #F9ECE5;
-  --paper: #FFFAF7;
+  --cream: #F6EEE7;
+  --paper: #FCFAF7;
 
-  --ink: #252536;
-  --muted: #595866;
-  --line: #E3D9D8;
+  --ink: #27343B;
+  --muted: #59666D;
+  --line: #E2E0D9;
 
   --display: 'Cormorant Garamond', Georgia, serif;
   --sans: 'Outfit', 'Segoe UI', system-ui, sans-serif;
 
   --shadow: 0 10px 30px -12px rgba(37, 37, 54, 0.12);
-  --lift: 0 18px 40px -18px rgba(35, 64, 186, 0.18);
+  --lift: 0 18px 40px -18px rgba(41, 75, 120, 0.16);
 }
 
 
@@ -933,7 +933,7 @@ section.block {
 
 .coming .sub {
   font-size: 14px;
-  color: #595866;
+  color: #59666D;
 }
 
 .coming .actions {
@@ -1160,23 +1160,23 @@ section.block {
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Outfit:wght@300;400;500;600;700&display=swap');
 
 :root {
-  --sage: #C5DBCA;
-  --sage-deep: #308DBF;
-  --sage-dark: #2340BA;
-  --sage-soft: #E4EEE6;
-  --sage-mist: #F0F5F1;
+  --sage: #D8E5DB;
+  --sage-deep: #4F8CA7;
+  --sage-dark: #294B78;
+  --sage-soft: #EAF0EB;
+  --sage-mist: #F1F5F1;
 
-  --burgundy: #C22767;
-  --burgundy-deep: #981D50;
+  --burgundy: #A33F69;
+  --burgundy-deep: #78304D;
 
-  --gold: #308DBF;
-  --gold-soft: #78B6D5;
+  --gold: #A77C4E;
+  --gold-soft: #D4B98F;
 
-  --cream: #F9ECE5;
-  --paper: #FFFAF7;
-  --ink: #252536;
-  --muted: #595866;
-  --line: #E3D9D8;
+  --cream: #F6EEE7;
+  --paper: #FCFAF7;
+  --ink: #27343B;
+  --muted: #59666D;
+  --line: #E2E0D9;
 }
 
 /* RESET */
