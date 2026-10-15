@@ -340,7 +340,7 @@
 }
 
 .position-card:hover {
-  background: rgba(41,75,120),.025);
+  background: rgba(41,75,120,.025);
 }
 
 .position-label {
@@ -428,7 +428,7 @@
   margin-top: 52px;
   padding: 34px 38px;
   background: #EDF2EE;
-  border: 1px solid rgba(41,75,120),.09);
+  border: 1px solid rgba(41,75,120,.09);
 }
 
 .application-note .eyebrow {
@@ -511,7 +511,7 @@
 .careers-feature-content > p {
   max-width: 560px;
   margin: 0 0 29px;
-  color: rgba(252,250,247),.87);
+  color: rgba(252,250,247,.87);
   font-family: var(--sans, "Outfit", sans-serif);
   font-size: 15px;
   line-height: 1.8;
@@ -785,7 +785,7 @@
 .careers-page .value-grid {
   border: 0;
   gap: 1px;
-  background: rgba(41,75,120),.14);
+  background: rgba(41,75,120,.14);
 }
 
 .careers-page .value-card {
