@@ -5,30 +5,38 @@
    ========================= */
 
 :root {
-  --sage: #a8c8bd;
-  --sage-deep: #3e6b5c;
-  --sage-dark: #2a4f44;
-  --sage-soft: #d7e6df;
-  --sage-mist: #eaf3ef;
+  /* Updated Divine Moonlight palette: blue, magenta, warm cream, and sage */
+  --brand-blue: #308DBF;
+  --brand-blue-deep: #2340BA;
+  --brand-magenta: #C22767;
+  --brand-magenta-deep: #981D50;
+  --brand-cream: #F9ECE5;
+  --brand-sage: #C5DBCA;
+  --focus-ring: #2340BA;
+  --sage: #C5DBCA;
+  --sage-deep: #308DBF;
+  --sage-dark: #2340BA;
+  --sage-soft: #E4EEE6;
+  --sage-mist: #F0F5F1;
 
-  --burgundy: #741f3d;
-  --burgundy-deep: #5a1830;
+  --burgundy: #C22767;
+  --burgundy-deep: #981D50;
 
-  --gold: #b8954a;
-  --gold-soft: #d4bc7e;
+  --gold: #308DBF;
+  --gold-soft: #78B6D5;
 
-  --cream: #f7f3ec;
-  --paper: #fbf9f5;
+  --cream: #F9ECE5;
+  --paper: #FFFAF7;
 
-  --ink: #2c2a28;
-  --muted: #5e5a54;
-  --line: #ddd6cb;
+  --ink: #252536;
+  --muted: #595866;
+  --line: #E3D9D8;
 
   --display: 'Cormorant Garamond', Georgia, serif;
   --sans: 'Outfit', 'Segoe UI', system-ui, sans-serif;
 
-  --shadow: 0 10px 30px -12px rgba(44, 42, 40, 0.16);
-  --lift: 0 18px 40px -18px rgba(42, 79, 68, 0.28);
+  --shadow: 0 10px 30px -12px rgba(37, 37, 54, 0.12);
+  --lift: 0 18px 40px -18px rgba(35, 64, 186, 0.18);
 }
 
 
@@ -256,7 +264,7 @@ p {
 .mobile-nav a {
   display: block;
   padding: 13px 0;
-  border-bottom: 1px solid rgba(221, 214, 203, 0.7);
+  border-bottom: 1px solid rgba(227, 217, 216, 0.7);
   text-decoration: none;
   font-weight: 500;
 }
@@ -704,7 +712,7 @@ section.block {
   font-family: var(--display);
   font-size: 100px;
   line-height: 0.5;
-  color: rgba(168, 200, 189, 0.8);
+  color: rgba(194, 39, 103, 0.28);
 }
 
 
@@ -810,7 +818,7 @@ section.block {
 .final-overlay {
   position: absolute;
   inset: 0;
-  background: rgba(42, 79, 68, 0.82);
+  background: rgba(35, 64, 186, 0.88);
 }
 
 .final .container {
@@ -925,7 +933,7 @@ section.block {
 
 .coming .sub {
   font-size: 14px;
-  color: #7a756e;
+  color: #595866;
 }
 
 .coming .actions {
@@ -1079,7 +1087,7 @@ section.block {
   background: var(--sage-mist);
   box-shadow:
     0 0 0 1px var(--sage-soft),
-    0 10px 22px -14px rgba(42, 79, 68, 0.28);
+    0 10px 22px -14px rgba(35, 64, 186, 0.18);
   overflow: hidden;
   flex-shrink: 0;
 }
@@ -1152,23 +1160,23 @@ section.block {
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Outfit:wght@300;400;500;600;700&display=swap');
 
 :root {
-  --sage: #a8c8bd;
-  --sage-deep: #3e6b5c;
-  --sage-dark: #2a4f44;
-  --sage-soft: #d7e6df;
-  --sage-mist: #eaf3ef;
+  --sage: #C5DBCA;
+  --sage-deep: #308DBF;
+  --sage-dark: #2340BA;
+  --sage-soft: #E4EEE6;
+  --sage-mist: #F0F5F1;
 
-  --burgundy: #741f3d;
-  --burgundy-deep: #5a1830;
+  --burgundy: #C22767;
+  --burgundy-deep: #981D50;
 
-  --gold: #b8954a;
-  --gold-soft: #d4bc7e;
+  --gold: #308DBF;
+  --gold-soft: #78B6D5;
 
-  --cream: #f7f3ec;
-  --paper: #fbf9f5;
-  --ink: #2c2a28;
-  --muted: #5e5a54;
-  --line: #ddd6cb;
+  --cream: #F9ECE5;
+  --paper: #FFFAF7;
+  --ink: #252536;
+  --muted: #595866;
+  --line: #E3D9D8;
 }
 
 /* RESET */
