@@ -1,4 +1,4 @@
-@import url('styles-legacy.css');
+@import url('styles-legacy.css?v=20261015-2');
 
 /* =========================================================
    DIVINE MOONLIGHT — HOMEPAGE HERO
@@ -29,9 +29,9 @@ main > section.hero:first-of-type .hero-copy {
   display: flex;
   align-items: flex-start;
   background: linear-gradient(90deg,
-    rgba(246,238,231),1) 0%,
-    rgba(246,238,231),.98) 70%,
-    rgba(246,238,231),.86) 100%);
+    rgba(246,238,231,1) 0%,
+    rgba(246,238,231,.98) 70%,
+    rgba(246,238,231,.86) 100%);
 }
 
 main > section.hero:first-of-type .hero-copy > .container {
@@ -114,7 +114,7 @@ main > section.hero:first-of-type .text-link {
   margin-top: 18px;
   padding-bottom: 4px;
   color: var(--brand-blue-deep);
-  border-bottom: 1px solid rgba(41,75,120),.3);
+  border-bottom: 1px solid rgba(41,75,120,.3);
   font-family: var(--sans);
   font-size: 14px;
   font-weight: 500;
@@ -128,7 +128,7 @@ main > section.hero:first-of-type .hero-copy::after {
   bottom: 38px;
   padding-top: 16px;
   padding-right: 24px;
-  border-top: 1px solid rgba(41,75,120),.18);
+  border-top: 1px solid rgba(41,75,120,.18);
   color: var(--brand-magenta);
   font-family: var(--sans);
   font-size: 11px;
@@ -166,7 +166,7 @@ main > section.hero:first-of-type .hero-image img {
   main > section.hero:first-of-type .hero-copy {
     min-height: calc(100svh - 72px);
     padding: 82px 16px 105px;
-    background: rgba(246,238,231),.91);
+    background: rgba(246,238,231,.91);
   }
 
   main > section.hero:first-of-type h1 {
@@ -249,12 +249,12 @@ main > section.hero:first-of-type .hero-image::after {
   background:
     linear-gradient(
       90deg,
-      rgba(246,238,231),.99) 0%,
-      rgba(246,238,231),.96) 22%,
-      rgba(246,238,231),.82) 42%,
-      rgba(246,238,231),.50) 57%,
-      rgba(246,238,231),.16) 72%,
-      rgba(246,238,231),0) 100%
+      rgba(246,238,231,.99) 0%,
+      rgba(246,238,231,.96) 22%,
+      rgba(246,238,231,.82) 42%,
+      rgba(246,238,231,.50) 57%,
+      rgba(246,238,231,.16) 72%,
+      rgba(246,238,231,0) 100%
     ) !important;
 }
 
@@ -335,7 +335,7 @@ main > section.hero:first-of-type .hero-copy > .container > p {
   font-family: var(--sans) !important;
   font-size: 17px !important;
   line-height: 1.65 !important;
-  text-shadow: 0 1px 12px rgba(246,238,231),.35) !important;
+  text-shadow: 0 1px 12px rgba(246,238,231,.35) !important;
 }
 
 main > section.hero:first-of-type .hero-copy > .container > p::after {
@@ -378,7 +378,7 @@ main > section.hero:first-of-type .text-link {
   margin: 0 !important;
   padding-bottom: 5px !important;
   color: var(--brand-blue-deep) !important;
-  border-bottom: 1px solid rgba(41,75,120),.35) !important;
+  border-bottom: 1px solid rgba(41,75,120,.35) !important;
   font-family: var(--sans) !important;
   font-size: 14px !important;
   font-weight: 600 !important;
@@ -392,7 +392,7 @@ main > section.hero:first-of-type .hero-copy::after {
   bottom: 38px !important;
   z-index: 4 !important;
   padding: 15px 28px 0 0 !important;
-  border-top: 1px solid rgba(41,75,120),.22) !important;
+  border-top: 1px solid rgba(41,75,120,.22) !important;
   color: var(--brand-magenta) !important;
   font-family: var(--sans) !important;
   font-size: 10px !important;
@@ -465,10 +465,10 @@ main > section.hero:first-of-type .hero-copy::before {
     background:
       linear-gradient(
         180deg,
-        rgba(246,238,231),.94) 0%,
-        rgba(246,238,231),.82) 30%,
-        rgba(246,238,231),.62) 58%,
-        rgba(246,238,231),.28) 100%
+        rgba(246,238,231,.94) 0%,
+        rgba(246,238,231,.82) 30%,
+        rgba(246,238,231,.62) 58%,
+        rgba(246,238,231,.28) 100%
       ) !important;
   }
 
@@ -1368,7 +1368,7 @@ main > section.hero:first-of-type .hero-copy::before {
   grid-template-columns: minmax(300px,.9fr) minmax(360px,1.1fr);
   min-height: 610px;
   background: #fff;
-  box-shadow: 0 24px 70px rgba(41,75,120),.10);
+  box-shadow: 0 24px 70px rgba(41,75,120,.10);
 }
 
 .founder-image-wrap {
@@ -1476,8 +1476,8 @@ main > section.hero:first-of-type .hero-copy::before {
   min-height: 500px;
   margin-top: 32px;
   background: #fff;
-  border-top: 1px solid rgba(167,124,78),.35);
-  box-shadow: 0 20px 55px rgba(41,75,120),.08);
+  border-top: 1px solid rgba(167,124,78,.35);
+  box-shadow: 0 20px 55px rgba(41,75,120,.08);
 }
 
 .josephine-photo {
@@ -2076,8 +2076,8 @@ main > section.hero:first-of-type .hero-copy::before {
 .service-grid .card {
   position: relative;
   overflow: hidden;
-  border: 1px solid rgba(41,75,120),.08);
-  box-shadow: 0 10px 30px -24px rgba(41,75,120),.35);
+  border: 1px solid rgba(41,75,120,.08);
+  box-shadow: 0 10px 30px -24px rgba(41,75,120,.35);
 }
 .service-grid .card::before {
   content:"";
@@ -2091,7 +2091,7 @@ main > section.hero:first-of-type .hero-copy::before {
 .service-grid .card:hover,.service-grid .card:focus-within {
   transform:translateY(-7px);
   border-color:rgba(184,149,74,.25);
-  box-shadow:0 22px 45px -25px rgba(41,75,120),.34);
+  box-shadow:0 22px 45px -25px rgba(41,75,120,.34);
 }
 .service-grid .card:hover::before,.service-grid .card:focus-within::before { transform:scaleX(1); }
 
@@ -2116,10 +2116,10 @@ main > section.hero:first-of-type .hero-copy::before {
 
 .founders-feature:hover,.founders-josephine:hover {
   transform:translateY(-4px);
-  box-shadow:0 28px 65px -34px rgba(41,75,120),.28);
+  box-shadow:0 28px 65px -34px rgba(41,75,120,.28);
 }
 .home-mission-quote { transition:transform .45s var(--dm-ease),box-shadow .45s var(--dm-ease); }
-.home-mission-quote:hover { transform:translateY(-4px); box-shadow:0 22px 45px -30px rgba(41,75,120),.24); }
+.home-mission-quote:hover { transform:translateY(-4px); box-shadow:0 22px 45px -30px rgba(41,75,120,.24); }
 
 .steps .step { position:relative; }
 .steps .step:hover { transform:translateY(-4px); }
@@ -2129,7 +2129,7 @@ main > section.hero:first-of-type .hero-copy::before {
 .btn {
   transition:transform .25s var(--dm-ease),box-shadow .25s ease,background-color .25s ease,border-color .25s ease,color .25s ease;
 }
-.btn:hover,.btn:focus-visible { transform:translateY(-2px); box-shadow:0 12px 26px -17px rgba(41,75,120),.45); }
+.btn:hover,.btn:focus-visible { transform:translateY(-2px); box-shadow:0 12px 26px -17px rgba(41,75,120,.45); }
 .btn:active { transform:translateY(0); }
 
 .text-link,.mission-link,.learn { transition:gap .3s var(--dm-ease),color .25s ease,border-color .25s ease; }
@@ -2138,7 +2138,7 @@ main > section.hero:first-of-type .hero-copy::before {
 #shared-site-navigation .header {
   transition:background-color .3s ease,box-shadow .3s ease,border-color .3s ease;
 }
-#shared-site-navigation .header.scrolled { box-shadow:0 12px 32px -24px rgba(41,75,120),.45); }
+#shared-site-navigation .header.scrolled { box-shadow:0 12px 32px -24px rgba(41,75,120,.45); }
 
 .dm-reveal {
   opacity:0;
@@ -2219,7 +2219,7 @@ main > section.hero:first-of-type .hero-copy::before {
   opacity: 0;
   pointer-events: none;
   transition: opacity .25s ease, transform .3s var(--dm-ease);
-  box-shadow: 0 8px 22px rgba(41,75,120),.18);
+  box-shadow: 0 8px 22px rgba(41,75,120,.18);
 }
 
 .dm-whatsapp-label::after {
@@ -2476,10 +2476,10 @@ a#dm-whatsapp-float.dm-whatsapp-pending {
     background:
       linear-gradient(
         180deg,
-        rgba(246,238,231),1) 0%,
-        rgba(246,238,231),.72) 10%,
-        rgba(246,238,231),.12) 30%,
-        rgba(246,238,231),0) 52%
+        rgba(246,238,231,1) 0%,
+        rgba(246,238,231,.72) 10%,
+        rgba(246,238,231,.12) 30%,
+        rgba(246,238,231,0) 52%
       ) !important;
   }
 
@@ -2563,19 +2563,19 @@ a#dm-whatsapp-float.dm-whatsapp-pending {
     background:
       linear-gradient(
         90deg,
-        rgba(246,238,231),.98) 0%,
-        rgba(246,238,231),.88) 18%,
-        rgba(246,238,231),.58) 40%,
-        rgba(246,238,231),.22) 62%,
-        rgba(246,238,231),.04) 82%,
-        rgba(246,238,231),0) 100%
+        rgba(246,238,231,.98) 0%,
+        rgba(246,238,231,.88) 18%,
+        rgba(246,238,231,.58) 40%,
+        rgba(246,238,231,.22) 62%,
+        rgba(246,238,231,.04) 82%,
+        rgba(246,238,231,0) 100%
       ),
       linear-gradient(
         180deg,
-        rgba(246,238,231),.28) 0%,
-        rgba(246,238,231),0) 24%,
-        rgba(246,238,231),0) 76%,
-        rgba(246,238,231),.28) 100%
+        rgba(246,238,231,.28) 0%,
+        rgba(246,238,231,0) 24%,
+        rgba(246,238,231,0) 76%,
+        rgba(246,238,231,.28) 100%
       ) !important;
   }
 }
@@ -2593,20 +2593,20 @@ a#dm-whatsapp-float.dm-whatsapp-pending {
     background:
       linear-gradient(
         90deg,
-        rgba(246,238,231),1) 0%,
-        rgba(246,238,231),.97) 18%,
-        rgba(246,238,231),.88) 34%,
-        rgba(246,238,231),.62) 49%,
-        rgba(246,238,231),.30) 64%,
-        rgba(246,238,231),.08) 82%,
-        rgba(246,238,231),0) 100%
+        rgba(246,238,231,1) 0%,
+        rgba(246,238,231,.97) 18%,
+        rgba(246,238,231,.88) 34%,
+        rgba(246,238,231,.62) 49%,
+        rgba(246,238,231,.30) 64%,
+        rgba(246,238,231,.08) 82%,
+        rgba(246,238,231,0) 100%
       ),
       linear-gradient(
         180deg,
-        rgba(246,238,231),.22) 0%,
-        rgba(246,238,231),0) 18%,
-        rgba(246,238,231),0) 82%,
-        rgba(246,238,231),.22) 100%
+        rgba(246,238,231,.22) 0%,
+        rgba(246,238,231,0) 18%,
+        rgba(246,238,231,0) 82%,
+        rgba(246,238,231,.22) 100%
       ) !important;
   }
 }
@@ -2672,9 +2672,9 @@ a#dm-whatsapp-float.dm-whatsapp-pending {
   }
 
   main > section.hero:first-of-type .actions .btn-secondary {
-    border: 1px solid rgba(41,75,120),.45) !important;
+    border: 1px solid rgba(41,75,120,.45) !important;
     color: var(--brand-blue-deep) !important;
-    background: rgba(246,238,231),.88) !important;
+    background: rgba(246,238,231,.88) !important;
   }
 
   main > section.hero:first-of-type .text-link {
@@ -2701,9 +2701,9 @@ a#dm-whatsapp-float.dm-whatsapp-pending {
     background:
       linear-gradient(
         180deg,
-        rgba(246,238,231),0) 0%,
-        rgba(246,238,231),0) 72%,
-        rgba(246,238,231),.72) 100%
+        rgba(246,238,231,0) 0%,
+        rgba(246,238,231,0) 72%,
+        rgba(246,238,231,.72) 100%
       ) !important;
   }
 
@@ -2713,7 +2713,7 @@ a#dm-whatsapp-float.dm-whatsapp-pending {
     bottom: 28px !important;
     padding: 14px 0 0 !important;
     text-align: center !important;
-    border-top: 1px solid rgba(41,75,120),.22) !important;
+    border-top: 1px solid rgba(41,75,120,.22) !important;
     font-size: 9px !important;
     letter-spacing: .11em !important;
   }
@@ -2778,14 +2778,14 @@ main > section.hero:first-of-type .hero-image::after {
        until the photograph is completely unobstructed in the right third. */
     background: linear-gradient(
       90deg,
-      rgba(246,238,231),1) 0%,
-      rgba(246,238,231),1) 33.333%,
-      rgba(246,238,231),.82) 43%,
-      rgba(246,238,231),.58) 52%,
-      rgba(246,238,231),.30) 61%,
-      rgba(246,238,231),.08) 70%,
-      rgba(246,238,231),0) 78%,
-      rgba(246,238,231),0) 100%
+      rgba(246,238,231,1) 0%,
+      rgba(246,238,231,1) 33.333%,
+      rgba(246,238,231,.82) 43%,
+      rgba(246,238,231,.58) 52%,
+      rgba(246,238,231,.30) 61%,
+      rgba(246,238,231,.08) 70%,
+      rgba(246,238,231,0) 78%,
+      rgba(246,238,231,0) 100%
     ) !important;
   }
 
@@ -2796,17 +2796,17 @@ main > section.hero:first-of-type .hero-image::after {
     justify-content: center !important;
     min-height: 54px !important;
     padding: 0 24px !important;
-    border: 1px solid rgba(41,75,120),.38) !important;
+    border: 1px solid rgba(41,75,120,.38) !important;
     border-radius: 999px !important;
     color: var(--brand-blue-deep) !important;
-    background: rgba(246,238,231),.72) !important;
+    background: rgba(246,238,231,.72) !important;
     font-size: 14px !important;
     font-weight: 600 !important;
     text-decoration: none !important;
   }
 
   main > section.hero:first-of-type .actions .btn-secondary:hover {
-    background: rgba(246,238,231),.94) !important;
+    background: rgba(246,238,231,.94) !important;
     border-color: var(--brand-blue-deep) !important;
   }
 }
@@ -2835,10 +2835,10 @@ main > section.hero:first-of-type .hero-copy::after {
     min-width: 0 !important;
     min-height: 50px !important;
     padding: 0 10px !important;
-    border: 1px solid rgba(41,75,120),.45) !important;
+    border: 1px solid rgba(41,75,120,.45) !important;
     border-radius: 999px !important;
     color: var(--brand-blue-deep) !important;
-    background: rgba(246,238,231),.88) !important;
+    background: rgba(246,238,231,.88) !important;
     font-size: 11px !important;
     font-weight: 600 !important;
     white-space: nowrap !important;
@@ -2872,12 +2872,12 @@ main > section.hero:first-of-type .hero-copy::after {
       90deg,
       var(--cream) 0%,
       var(--cream) 33.333%,
-      rgba(246,238,231),.88) 44%,
-      rgba(246,238,231),.62) 54%,
-      rgba(246,238,231),.34) 64%,
-      rgba(246,238,231),.12) 73%,
-      rgba(246,238,231),0) 82%,
-      rgba(246,238,231),0) 100%
+      rgba(246,238,231,.88) 44%,
+      rgba(246,238,231,.62) 54%,
+      rgba(246,238,231,.34) 64%,
+      rgba(246,238,231,.12) 73%,
+      rgba(246,238,231,0) 82%,
+      rgba(246,238,231,0) 100%
     ) !important;
   }
 
@@ -2906,7 +2906,7 @@ main > section.hero:first-of-type .hero-copy::after {
     margin: 0 !important;
     padding-bottom: 5px !important;
     color: var(--brand-blue-deep) !important;
-    border-bottom: 1px solid rgba(41,75,120),.35) !important;
+    border-bottom: 1px solid rgba(41,75,120,.35) !important;
     font-family: var(--sans) !important;
     font-size: 14px !important;
     font-weight: 600 !important;
@@ -2957,7 +2957,7 @@ main > section.hero:first-of-type .hero-copy::after {
     margin: 0 !important;
     padding-bottom: 4px !important;
     color: var(--brand-blue-deep) !important;
-    border-bottom: 1px solid rgba(41,75,120),.3) !important;
+    border-bottom: 1px solid rgba(41,75,120,.3) !important;
     width: fit-content !important;
     margin-left: auto !important;
     margin-right: auto !important;
@@ -2996,13 +2996,13 @@ main > section.hero:first-of-type .hero-copy::after {
       90deg,
       var(--cream) 0%,
       var(--cream) 33%,
-      rgba(246,238,231),.98) 42%,
-      rgba(246,238,231),.82) 50%,
-      rgba(246,238,231),.58) 58%,
-      rgba(246,238,231),.34) 66%,
-      rgba(246,238,231),.14) 75%,
-      rgba(246,238,231),0) 84%,
-      rgba(246,238,231),0) 100%
+      rgba(246,238,231,.98) 42%,
+      rgba(246,238,231,.82) 50%,
+      rgba(246,238,231,.58) 58%,
+      rgba(246,238,231,.34) 66%,
+      rgba(246,238,231,.14) 75%,
+      rgba(246,238,231,0) 84%,
+      rgba(246,238,231,0) 100%
     ) !important;
   }
 
@@ -3069,7 +3069,7 @@ main > section.hero:first-of-type .hero-copy::after {
     color: var(--brand-blue-deep) !important;
     background: transparent !important;
     border: 0 !important;
-    border-bottom: 1px solid rgba(41,75,120),.35) !important;
+    border-bottom: 1px solid rgba(41,75,120,.35) !important;
     font-family: var(--sans) !important;
     font-size: 13px !important;
     font-weight: 600 !important;
@@ -3095,8 +3095,8 @@ main > section.hero:first-of-type .hero-copy::after {
     z-index: 1 !important;
     background: linear-gradient(
       180deg,
-      rgba(246,238,231),.12) 0%,
-      rgba(246,238,231),0) 100%
+      rgba(246,238,231,.12) 0%,
+      rgba(246,238,231,0) 100%
     ) !important;
   }
 
@@ -3159,7 +3159,7 @@ main > section.hero:first-of-type .actions .text-link {
   transform: none !important;
   background: transparent !important;
   border: 0 !important;
-  border-bottom: 1px solid rgba(41,75,120),.35) !important;
+  border-bottom: 1px solid rgba(41,75,120,.35) !important;
   color: var(--brand-blue-deep) !important;
   font-family: var(--sans) !important;
   font-size: 14px !important;
@@ -3240,10 +3240,10 @@ main > section.hero:first-of-type .actions .text-link {
     pointer-events: none !important;
     background: linear-gradient(
       to bottom,
-      rgba(246,238,231),0) 0%,
-      rgba(246,238,231),.08) 18%,
-      rgba(246,238,231),.28) 42%,
-      rgba(246,238,231),.58) 68%,
+      rgba(246,238,231,0) 0%,
+      rgba(246,238,231,.08) 18%,
+      rgba(246,238,231,.28) 42%,
+      rgba(246,238,231,.58) 68%,
       var(--cream) 100%
     ) !important;
   }
@@ -3292,12 +3292,12 @@ main > section.hero:first-of-type .actions .text-link {
     flex-basis: 100% !important;
     margin: 0 0 2px !important;
     padding-bottom: 12px !important;
-    border-bottom: 1px solid rgba(41,75,120),.18) !important;
+    border-bottom: 1px solid rgba(41,75,120,.18) !important;
   }
 }
 .mobile-nursing-pool:hover {
   color: var(--brand-blue-deep) !important;
-  border-color: rgba(41,75,120),.45) !important;
+  border-color: rgba(41,75,120,.45) !important;
 }
 main > section.hero:first-of-type .hero-copy::after {
   display: none !important;
@@ -3372,7 +3372,7 @@ main > section.hero:first-of-type .hero-copy::after {
     margin-top: 1px !important;
     padding: 0 0 5px !important;
     color: var(--brand-blue-deep) !important;
-    border-bottom: 1px solid rgba(41,75,120),.28) !important;
+    border-bottom: 1px solid rgba(41,75,120,.28) !important;
     font-size: 13px !important;
     font-weight: 600 !important;
   }
@@ -3680,7 +3680,7 @@ main > section.hero:first-of-type .hero-copy::after {
   position: relative;
   min-width: 0;
   overflow: hidden;
-  border: 1px solid rgba(41,75,120),.14);
+  border: 1px solid rgba(41,75,120,.14);
   border-radius: 18px;
   background: #EDF2EE;
 }
@@ -3706,7 +3706,7 @@ main > section.hero:first-of-type .hero-copy::after {
   padding: 7px 10px;
   background: var(--cream);
   color: var(--brand-blue-deep);
-  box-shadow: 0 5px 18px rgba(41,75,120),.16);
+  box-shadow: 0 5px 18px rgba(41,75,120,.16);
   font-family: var(--sans);
   font-size: 12px;
   font-weight: 600;
@@ -3723,11 +3723,11 @@ main > section.hero:first-of-type .hero-copy::after {
   z-index: 500;
   padding: 8px 11px;
   border-radius: 5px;
-  background: rgba(246,238,231),.92);
+  background: rgba(246,238,231,.92);
   color: var(--brand-blue-deep);
   font-family: var(--sans);
   font-size: 11px;
-  box-shadow: 0 4px 16px rgba(41,75,120),.12);
+  box-shadow: 0 4px 16px rgba(41,75,120,.12);
 }
 
 .service-area-info {
@@ -3750,12 +3750,12 @@ main > section.hero:first-of-type .hero-copy::after {
   padding: 0;
   display: grid;
   gap: 0;
-  border-top: 1px solid rgba(41,75,120),.16);
+  border-top: 1px solid rgba(41,75,120,.16);
 }
 
 .service-area-list li {
   padding: 14px 0;
-  border-bottom: 1px solid rgba(41,75,120),.16);
+  border-bottom: 1px solid rgba(41,75,120,.16);
   color: var(--brand-blue-deep);
   font-size: 15px;
   font-weight: 600;
@@ -3962,10 +3962,10 @@ main > section.hero:first-of-type .hero-copy::after {
   position: relative;
   min-width: 0;
   overflow: hidden;
-  border: 1px solid rgba(41,75,120),.12);
+  border: 1px solid rgba(41,75,120,.12);
   border-radius: 24px;
   background: var(--paper);
-  box-shadow: 0 24px 60px rgba(41,75,120),.10);
+  box-shadow: 0 24px 60px rgba(41,75,120,.10);
 }
 
 .service-area-map-image {
@@ -3981,7 +3981,7 @@ main > section.hero:first-of-type .hero-copy::after {
   position: absolute;
   inset: 0;
   pointer-events: none;
-  background: linear-gradient(180deg, rgba(246,238,231),0) 72%, rgba(246,238,231),.18) 100%);
+  background: linear-gradient(180deg, rgba(246,238,231,0) 72%, rgba(246,238,231,.18) 100%);
 }
 
 .service-area-map-image img {
@@ -3999,9 +3999,9 @@ main > section.hero:first-of-type .hero-copy::after {
   bottom: 20px;
   z-index: 2;
   padding: 9px 13px;
-  border: 1px solid rgba(41,75,120),.12);
+  border: 1px solid rgba(41,75,120,.12);
   border-radius: 999px;
-  background: rgba(246,238,231),.92);
+  background: rgba(246,238,231,.92);
   color: var(--brand-blue-deep);
   font-family: var(--sans);
   font-size: 10px;
@@ -4009,7 +4009,7 @@ main > section.hero:first-of-type .hero-copy::after {
   letter-spacing: .15em;
   line-height: 1;
   text-transform: uppercase;
-  box-shadow: 0 8px 24px rgba(41,75,120),.10);
+  box-shadow: 0 8px 24px rgba(41,75,120,.10);
 }
 
 .service-area-info {
@@ -4042,12 +4042,12 @@ main > section.hero:first-of-type .hero-copy::after {
 
 .service-area-list {
   margin: 0 0 25px;
-  border-top: 1px solid rgba(41,75,120),.15);
+  border-top: 1px solid rgba(41,75,120,.15);
 }
 
 .service-area-list li {
   padding: 15px 0;
-  border-bottom: 1px solid rgba(41,75,120),.15);
+  border-bottom: 1px solid rgba(41,75,120,.15);
   color: var(--brand-blue-deep);
   font-size: 15px;
   font-weight: 600;
@@ -4100,7 +4100,7 @@ main > section.hero:first-of-type .hero-copy::after {
   .service-area-intro { margin-bottom: 30px; }
   .service-area-intro h1 { font-size: clamp(48px, 15vw, 64px); }
   .service-area-intro p { font-size: 15px; line-height: 1.7; }
-  .service-area-map-wrap { border-radius: 16px; box-shadow: 0 16px 36px rgba(41,75,120),.09); }
+  .service-area-map-wrap { border-radius: 16px; box-shadow: 0 16px 36px rgba(41,75,120,.09); }
   .map-image-label { left: 13px; bottom: 13px; padding: 8px 10px; font-size: 9px; }
   .service-area-info h2 { font-size: 43px; }
 }
