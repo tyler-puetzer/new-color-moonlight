@@ -450,7 +450,7 @@ main > section.hero:first-of-type .hero-image::after {
 
 /* Reduce motion when requested; retain clarity and functionality at every width. */
 @media (max-width: 1050px) {
-  .navrow { width: min(100% - 40px, 1280px) !important; gap: 14px !important; }
+  .navrow { width: min(calc(100% - 40px), 1280px) !important; gap: 14px !important; }
   .desktop-nav { gap: 0 !important; }
   .desktop-nav a { padding-inline: 7px !important; font-size: 12px !important; }
   .brand img { height: 49px !important; }
