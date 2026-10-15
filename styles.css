@@ -569,7 +569,7 @@ main > section.hero:first-of-type .hero-copy::before {
   background:
     radial-gradient(
       circle at 50% 35%,
-      rgba(180, 151, 90, 0.13),
+      rgba(167, 124, 78, 0.13),
       transparent 35%
     ),
     linear-gradient(
@@ -588,7 +588,7 @@ main > section.hero:first-of-type .hero-copy::before {
   position: absolute;
   inset: 28px;
 
-  border: 1px solid rgba(180, 151, 90, 0.28);
+  border: 1px solid rgba(167, 124, 78, 0.28);
 
   pointer-events: none;
 }
@@ -602,7 +602,7 @@ main > section.hero:first-of-type .hero-copy::before {
 
   border-radius: 50%;
 
-  background: rgba(180, 151, 90, 0.07);
+  background: rgba(167, 124, 78, 0.07);
 
   filter: blur(20px);
 
@@ -680,7 +680,7 @@ main > section.hero:first-of-type .hero-copy::before {
   background: linear-gradient(
     90deg,
     transparent,
-    rgba(180, 151, 90, 0.7)
+    rgba(167, 124, 78, 0.7)
   );
 }
 
@@ -688,7 +688,7 @@ main > section.hero:first-of-type .hero-copy::before {
 .crown-divider span:last-child {
   background: linear-gradient(
     90deg,
-    rgba(180, 151, 90, 0.7),
+    rgba(167, 124, 78, 0.7),
     transparent
   );
 }
@@ -1619,7 +1619,7 @@ main > section.hero:first-of-type .hero-copy::before {
   border-radius: 50%;
   top: -250px;
   right: -180px;
-  background: rgba(180, 151, 90, 0.06);
+  background: rgba(167, 124, 78, 0.06);
   pointer-events: none;
 }
 
@@ -1673,7 +1673,7 @@ main > section.hero:first-of-type .hero-copy::before {
 .home-mission-crown span {
   height: 1px;
   flex: 1;
-  background: rgba(180, 151, 90, 0.55);
+  background: rgba(167, 124, 78, 0.55);
 }
 
 .home-mission-crown div {
@@ -3421,7 +3421,7 @@ main > section.hero:first-of-type .hero-copy::after {
   background: #e8eee9;
   color: #293F50;
   padding: 26px 0 25px;
-  border-top: 1px solid rgba(42, 79, 68, .12);
+  border-top: 1px solid rgba(41, 75, 120, .12);
 }
 
 .footer-grid {
@@ -3495,7 +3495,7 @@ main > section.hero:first-of-type .hero-copy::after {
 }
 
 .copyright {
-  border-top: 1px solid rgba(42, 79, 68, .18);
+  border-top: 1px solid rgba(41, 75, 120, .18);
   margin-top: 45px;
   padding-top: 22px;
   display: flex;
@@ -3525,9 +3525,9 @@ main > section.hero:first-of-type .hero-copy::after {
   width: 38px;
   height: 38px;
   place-items: center;
-  border: 1px solid rgba(42, 79, 68, .22);
+  border: 1px solid rgba(41, 75, 120, .22);
   border-radius: 50%;
-  background: rgba(255, 253, 248, .8);
+  background: rgba(252, 250, 247, .8);
   color: var(--brand-blue-deep);
   cursor: default;
 }
@@ -3609,7 +3609,7 @@ main > section.hero:first-of-type .hero-copy::after {
 }
 .contact-card {
   padding: 28px;
-  border: 1px solid rgba(42, 79, 68, 0.14);
+  border: 1px solid rgba(41, 75, 120, 0.14);
   border-radius: 14px;
   background: rgba(255,255,255,0.58);
 }
