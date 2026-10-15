@@ -6,7 +6,7 @@
 
 :root {
   /* Updated Divine Moonlight palette: blue, magenta, warm cream, and sage */
-  --brand-blue: #4F8CA7;
+  --brand-blue: #426C7C;
   --brand-blue-deep: #294B78;
   --brand-magenta: #A33F69;
   --brand-magenta-deep: #78304D;
@@ -14,7 +14,7 @@
   --brand-sage: #D8E5DB;
   --focus-ring: #294B78;
   --sage: #D8E5DB;
-  --sage-deep: #4F8CA7;
+  --sage-deep: #426C7C;
   --sage-dark: #294B78;
   --sage-soft: #EAF0EB;
   --sage-mist: #F1F5F1;
@@ -1161,7 +1161,7 @@ section.block {
 
 :root {
   --sage: #D8E5DB;
-  --sage-deep: #4F8CA7;
+  --sage-deep: #426C7C;
   --sage-dark: #294B78;
   --sage-soft: #EAF0EB;
   --sage-mist: #F1F5F1;
